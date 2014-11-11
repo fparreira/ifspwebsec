@@ -2,7 +2,7 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <title>SUAP: Sistema Unificado de Administração Pública</title>
 
     <link rel="shortcut icon" href="{{STATIC_URL }}comum/img/favicon.ico" />
 
@@ -54,15 +54,219 @@
 
     <script type="text/javascript">
         $(document).ready(function(){
-            alert("teste de jquery");
+
         });
     </script>
 
 </head>
-<body>
-<ul>
-<li class="menu-home"><a href="/">Bem Vindo ao sistema <strong>Web Secretaria</strong></a></li>
+<body class=" index">
+
+<!-- Container -->
+<div class="holder">
+
+    <!-- Header -->
+    <header class="equal-height">
+
+
+
+        <!-- div id="logo-ifsp"></div -->
+        <h1 id="site-name">
+            <a href="/" title="SUAP: Sistema Unificado de Administração Pública">SUAP</a>
+        </h1>
+
+        <a href="#" id="acoes" class="toggleSidebar">Mostrar/Esconder barra lateral</a>
+
+
+
+                <div id="user-tools">
+                    <img src="" alt="Fernando de Jesus Flores Parreira" />
+                    <ul>
+                        <li>Fernando Parreira</li>
+                        <li>
+
+                                <a href="/rh/servidor/1868588/">Meus dados</a> |
+
+                            <a href="/accounts/logout/" class="logout">Sair</a>
+                        </li>
+                    </ul>
+                </div>
+
+
+
+
+
+                <nav>
+                    <ul>
+                        <li class="menu-home"><a href="/">Início</a></li>
+                        <li class="has-child menu-recursos-humanos" ><a href="#" title="Recursos Humanos">Recursos Humanos</a><ul><li class="" id="menu-item-recursoshumanos_servidores"><a href="/djtools/breadcrumbs_reset/recursoshumanos_servidores/admin/suap/servidor/?excluido__exact=0" title="Servidores">Servidores</a></li><li class="" id="menu-item-recursoshumanos_setores"><a href="/djtools/breadcrumbs_reset/recursoshumanos_setores/admin/suap/setor/?excluido__exact=0" title="Setores">Setores</a></li><li class="has-child" ><a href="#" title="Remoção">Remoção</a><ul><li class="" id="menu-item-recursoshumanos_remocao_remocoes"><a href="/djtools/breadcrumbs_reset/recursoshumanos_remocao_remocoes/remocao/remocoes/" title="Remoções">Remoções</a></li></ul></li></ul></li>
+
+			<!-- william.ferreira -->
+			<!-- Descomentar em 22/09/2014 -->
+
+
+                        <li class="has-child menu-extensao">
+			        <a href="/rec_saberes/documentacao/">RSC</a>
+			        <ul>
+			        	<li>
+					      	<a href="/rec_saberes/documentacao/">Enviar Documentos</a>
+					</li>
+				</ul>
+                        </li>
+
+
+                    </ul>
+                </nav>
+
+
+
+
+
+    </header>
+
+    <section id="content" class="equal-height colM">
+
+        <div id="breadcrumbs">
+
+              <a href="/">Início</a>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="container">
+
+	<div class="secao secao33">
+
+
+
+
+
+
+			<ul class="modulo-avisos info">
+
+
+
+
+
+
+
+
+
+
+
+
+		    </ul>
+
+
+			    <ul class="modulo-avisos error">
+
+
+
+
+			    </ul>
+
+
+
+
+
+
+	</div>
+
+	<div class="secao secao33">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	</div>
+
+	<div class="secao secao33">
+
+        <ul class="modulo-lista">
+            <li><a href="/comum/setor_telefones/">Telefones</a></li>
+
+
+                    <li><a href="/admin/suap/servidor/?excluido__exact=0">Servidores</a></li>
+
+
+
+
+                    <li><a href="/admin/suap/setor/?excluido__exact=0">Setores</a></li>
+
+
+
+
+                <li><a href="http://webmail.ifsp.edu.br/" target="_blank">Webmail</a></li>
+                <li><a href="http://siapenet.gov.br" target="_blank">SIAPE Net</a></li>
+
+
+
+        </ul>
+
+	</div>
+
+</div>
+
+
+
+        <div class="action-links">
+            <ul>
+                <li class="float-right">
+                    <a href="#" id="topodapagina">Topo da página</a>
+                </li>
+                <li class="float-right action-print">
+                    <a href="#">Imprimir</a>
+                </li>
+
+            </ul>
+        </div>
+
+	</section>
+
+</div>
+
+<footer>
+    <ul>
+
+
+	<li class="float-left">
+	    Mantido pelo
+	    <p><a href="http://www.ifsp.edu.br">IFSP</a></p>
+	</li>
+        <li>
+            Desenvolvimento
+            <p><a href="http://portal.ifrn.edu.br">IFRN</a></p>
+        </li>
+        <li class="float-right">
+            <a href="http://www.djangoproject.com/"><img src="{{ STATIC_URL }}comum/img/django.gif" alt="Feito com Django" /></a>
+        </li>
     </ul>
-<img src="{{ STATIC_URL }}img/python.png" />
+
+</footer>
+
+<script>
+	open_menu_item("");
+</script>
 </body>
 </html>
