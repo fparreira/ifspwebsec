@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="5a294e2a-4c07-4203-a610-fd67897f7fff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/websec/core/templates/index.html" afterPath="$PROJECT_DIR$/websec/core/templates/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="sis.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/websec/core/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.51760566" vertical-offset="2751" max-vertical-offset="4137">
-              <caret line="145" column="30" selection-start-line="145" selection-start-column="30" selection-end-line="145" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.44366196" vertical-offset="2751" max-vertical-offset="4116">
+              <caret line="143" column="86" selection-start-line="143" selection-start-column="86" selection-end-line="143" selection-end-column="86" />
               <folding />
             </state>
           </provider>
@@ -305,8 +304,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/websec/core/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.51760566" vertical-offset="2751" max-vertical-offset="4137">
-          <caret line="145" column="30" selection-start-line="145" selection-start-column="30" selection-end-line="145" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.44366196" vertical-offset="2751" max-vertical-offset="4116">
+          <caret line="143" column="86" selection-start-line="143" selection-start-column="86" selection-end-line="143" selection-end-column="86" />
           <folding />
         </state>
       </provider>
