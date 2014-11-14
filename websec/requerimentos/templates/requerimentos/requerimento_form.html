@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<form action="." method="post">
+    <label for="id_requerimento">Requerimento:</label>
+    <input id="id_requerimento" name="requerimento" type="text" maxlength="100" />
+
+    <label for="id_status">Status:</label>
+    <select id="id_status" name="status">
+        <option value="ativo">Ativo</option>
+        <option value="inativo">Inativo</option>
+    </select>
+
+    <label for="id_permissao">Permissao:</label>
+    <select id="id_permissao" name="permissao">
+        <option value="web">Web</option>
+        <option value="secretaria">Secretaria</option>
+        <option value="professores">Professores</option>
+        <option value="todos">Todos</option>
+    </select>
+
+    <input type="submit" value="Gravar" />
+
+</form>
+
+</body>
+</html>
