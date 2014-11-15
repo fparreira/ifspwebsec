@@ -1,31 +1,28 @@
-<!DOCTYPE html>
-<html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-</head>
-<body>
+{% extends 'base.html' %}
+{% block content %}
 <form action="." method="post">
-    <label for="id_requerimento">Requerimento:</label>
-    <input id="id_requerimento" name="requerimento" type="text" maxlength="100" />
+    {% csrf_token %}
+    <p>
+    <label for="{{ form.requerimento.id_for_label }}">{{ form.requerimento.label }} : </label>
+    {{ form.requerimento }}
+    {{ form.requerimento.errors }}
+    </p>
 
-    <label for="id_status">Status:</label>
-    <select id="id_status" name="status">
-        <option value="ativo">Ativo</option>
-        <option value="inativo">Inativo</option>
-    </select>
+    <p>
+    <label for="{{ form.status.id_for_label }}">{{ form.status.label }} : </label>
+    {{ form.status }}
+    {{ form.status.errors }}
+    </p>
 
-    <label for="id_permissao">Permissao:</label>
-    <select id="id_permissao" name="permissao">
-        <option value="web">Web</option>
-        <option value="secretaria">Secretaria</option>
-        <option value="professores">Professores</option>
-        <option value="todos">Todos</option>
-    </select>
+    <p>
+    <label for="{{ form.permissao.id_for_label }}">{{ form.permissao.label }} : </label>
+    {{ form.permissao }}
+    {{ form.permissao.errors }}
+    </p>
 
-    <input type="submit" value="Gravar" />
+    <p>
+    <input type="submit" value="GRAVAR" />
+    </p>
 
 </form>
-
-</body>
-</html>
+{% endblock content %}

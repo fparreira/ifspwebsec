@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>SUAP: Sistema Unificado de Administração Pública</title>
+
+    <link rel="shortcut icon" href="{{STATIC_URL }}comum/img/favicon.ico" />
+
+    <link rel="stylesheet" href="{{STATIC_URL }}djtools/jquery-1.6.2/css/jquery.ui.all.css" />
+    <link rel="stylesheet" href="{{STATIC_URL }}djtools/jquery-1.6.2/css/jquery.ui.core.css" />
+    <link rel="stylesheet" href="{{STATIC_URL }}djtools/jquery-1.6.2/css/jquery.ui.datepicker.css" />
+    <link rel="stylesheet" href="{{STATIC_URL }}djtools/jquery-1.6.2/css/jquery.ui.theme.css" />
+
+
+    <link rel="stylesheet" href="{{STATIC_URL }}djtools/jquery/jquery.autocomplete.css" />
+    <link rel="stylesheet" href="{{STATIC_URL }}djtools/jstree/tree_component.css" />
+
+
+    <link rel="stylesheet" href="{{STATIC_URL }}djtools/css/main.css" />
+    <link rel="stylesheet" href="{{STATIC_URL }}djtools/css/icons.css" />
+
+
+    <link rel="stylesheet" href="{{STATIC_URL }}comum/css/hint.min.css" />
+    <link rel="stylesheet" href="{{STATIC_URL }}comum/css/estilo.css" />
+    <link rel="stylesheet" href="{{STATIC_URL }}comum/css/forms.css" />
+
+
+    <link rel="stylesheet" href="{{STATIC_URL }}comum/css/index.css" />
+
+
+
+    <script src="{{STATIC_URL }}comum/js/jquery.min.js"></script>
+
+
+    <link rel="stylesheet" href="{{STATIC_URL }}djtools/tinybox/tinybox.css" />
+    <script src="{{STATIC_URL }}djtools/tinybox/tinybox.js"></script>
+
+
+    <script src="{{STATIC_URL }}comum/js/jquery.ui.custom.min.js"></script>
+    <script src="{{STATIC_URL }}comum/js/jquery.ui.datepicker-pt-BR.js"></script>
+
+
+    <script src="{{STATIC_URL }}comum/deprecated/js/jquery.autocomplete.js"></script>
+
+
+    <script src="{{STATIC_URL }}comum/deprecated/js/jquery.form.js"></script>
+    <script src="{{STATIC_URL }}comum/js/main.js"></script>
+    <script src="{{STATIC_URL }}comum/deprecated/js/mascaras.js"></script>
+    <script src="{{STATIC_URL }}comum/deprecated/js/auxiliar.js"></script>
+    <script src="{{STATIC_URL }}comum/deprecated/js/suap.basico.js"></script>
+
+
+    <script src="{{STATIC_URL }}djtools/box/js/box.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+
+        });
+    </script>
+
+</head>
+<body class=" index">
+
+<!-- Container -->
+<div class="holder">
+
+    <!-- Header -->
+    <header class="equal-height">
+
+        <!-- div id="logo-ifsp"></div -->
+        <h1 id="site-name">
+            <a href="/" title="SUAP: Sistema Unificado de Administração Pública">SUAP</a>
+        </h1>
+
+        <a href="#" id="acoes" class="toggleSidebar">Mostrar/Esconder barra lateral</a>
+
+                <div id="user-tools">
+                    <img src="" alt="Fernando de Jesus Flores Parreira" />
+                    <ul>
+                        <li>Fernando Parreira</li>
+                        <li>
+
+                                <a href="/">Meus dados</a> |
+
+                            <a href="/" class="logout">Sair</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <nav>
+                    <ul>
+                        <li class="menu-home"><a href="/">Início</a></li>
+                        <li class="has-child menu-extensao">
+			                <a href="/">REQUERIMENTOS</a>
+                            <ul>
+                                <li>
+                                    <a href="/requerimento/">Cadastro</a>
+                                </li>
+                                <li>
+                                    <a href="/">Fluxo</a>
+                                </li>
+                                <li>
+                                    <a href="/">Solicitação</a>
+                                </li>
+				            </ul>
+                        </li>
+                    </ul>
+                </nav>
+
+    </header>
+
+    <section id="content" class="equal-height colM">
+
+        <div id="breadcrumbs">
+
+              <a href="/">Início</a>
+
+        </div>
+
+<div class="container">
+
+
+
+
+        {% block content %}
+        {% endblock content %}
+
+
+
+</div>
+
+        <div class="action-links">
+            <ul>
+                <li class="float-right">
+                    <a href="#" id="topodapagina">Topo da página</a>
+                </li>
+                <li class="float-right action-print">
+                    <a href="#">Imprimir</a>
+                </li>
+
+            </ul>
+        </div>
+
+	</section>
+
+</div>
+
+<footer>
+    <ul>
+
+
+	<li class="float-left">
+	    Mantido pelo
+	    <p><a href="http://www.ifsp.edu.br">IFSP</a></p>
+	</li>
+        <li>
+            Desenvolvimento
+            <p><a href="http://portal.ifrn.edu.br">IFRN</a></p>
+        </li>
+        <li class="float-right">
+            <a href="http://www.djangoproject.com/"><img src="{{ STATIC_URL }}comum/img/django.gif" alt="Feito com Django" /></a>
+        </li>
+    </ul>
+
+</footer>
+
+<script>
+	open_menu_item("");
+</script>
+</body>
+</html>
