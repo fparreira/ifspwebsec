@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load render_table from django_tables2 %}
+<link rel="stylesheet" href="{{ STATIC_URL }}django_tables2/themes/paleblue/css/screen.css" />
+<h1 style="margin-bottom:30px">Requerimentos já cadastrados</h1>
+
+ <table style="width:100%">
+  <tr style="font-weight: bold">
+    <td>Requerimento</td>
+    <td>Status</td>
+    <td>Permissao</td>
+  </tr>
+
+{% for r in requerimento %}
+
+  <tr>
+    <td>{{r.requerimento}}</td>
+    <td>{{r.status}}</td>
+    <td>{{r.permissao}}</td>
+  </tr>
+
+{% endfor %}
+</table>
+{% endblock content %}

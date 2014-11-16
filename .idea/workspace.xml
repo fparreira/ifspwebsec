@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5a294e2a-4c07-4203-a610-fd67897f7fff" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websec/requerimentos/tests/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websec/core/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websec/requerimentos/forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websec/requerimentos/templates/requerimentos/requerimento_detalhe.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websec/requerimentos/tests/test_forms.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websec/requerimentos/tests/test_models.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websec/requerimentos/tests/test_views_detalhe.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/websec/requerimentos/tests.py" afterPath="$PROJECT_DIR$/websec/requerimentos/tests/test_views_requerimento.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/websec/core/templates/index.html" afterPath="$PROJECT_DIR$/websec/core/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websec/requerimentos/templates/requerimentos/requerimento_consulta.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/websec/requerimentos/tests/test_views_consulta.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/websec/requerimentos/admin.py" afterPath="$PROJECT_DIR$/websec/requerimentos/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/websec/core/templates/base.html" afterPath="$PROJECT_DIR$/websec/core/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/websec/requerimentos/models.py" afterPath="$PROJECT_DIR$/websec/requerimentos/models.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/websec/requerimentos/templates/requerimentos/requerimento_form.html" afterPath="$PROJECT_DIR$/websec/requerimentos/templates/requerimentos/requerimento_form.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/websec/settings.py" afterPath="$PROJECT_DIR$/websec/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/websec/urls.py" afterPath="$PROJECT_DIR$/websec/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/websec/requerimentos/views.py" afterPath="$PROJECT_DIR$/websec/requerimentos/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -37,42 +33,7 @@
     <favorites_list name="sis" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/websec/requerimentos/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
-              <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-              <folding>
-                <element signature="e#16#51#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="requerimento_detalhe.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/websec/requerimentos/templates/requerimentos/requerimento_detalhe.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.4" vertical-offset="0" max-vertical-offset="189">
-              <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_views_detalhe.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/websec/requerimentos/tests/test_views_detalhe.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.90286624" vertical-offset="0" max-vertical-offset="735">
-              <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
-              <folding>
-                <element signature="e#16#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -92,7 +53,6 @@
         <option value="$PROJECT_DIR$/websec/core/tests/__init__.py" />
         <option value="$PROJECT_DIR$/websec/core/tests/tests_html.py" />
         <option value="$PROJECT_DIR$/websec/core/tests/tests_core.py" />
-        <option value="$PROJECT_DIR$/websec/settings.py" />
         <option value="$PROJECT_DIR$/websec/core/tests/test_home.py" />
         <option value="$PROJECT_DIR$/websec/requerimentos/tests.py" />
         <option value="$PROJECT_DIR$/websec/core/templates/index.html" />
@@ -100,16 +60,20 @@
         <option value="$PROJECT_DIR$/websec/requerimentos/tests/tests_views_requerimento.py" />
         <option value="$PROJECT_DIR$/websec/requerimentos/tests/test_forms.py" />
         <option value="$PROJECT_DIR$/websec/requerimentos/tests/test_models.py" />
-        <option value="$PROJECT_DIR$/websec/requerimentos/models.py" />
         <option value="$PROJECT_DIR$/websec/requerimentos/tests/test_views_requerimento.py" />
         <option value="$PROJECT_DIR$/websec/requerimentos/forms.py" />
         <option value="$PROJECT_DIR$/websec/requerimentos/tests/test_views_detalhes.py" />
-        <option value="$PROJECT_DIR$/websec/urls.py" />
         <option value="$PROJECT_DIR$/websec/requerimentos/templates/requerimentos/requerimento_detalhe.html" />
         <option value="$PROJECT_DIR$/websec/requerimentos/tests/test_views_detalhe.py" />
-        <option value="$PROJECT_DIR$/websec/requerimentos/views.py" />
+        <option value="$PROJECT_DIR$/websec/requerimentos/admin.py" />
+        <option value="$PROJECT_DIR$/websec/urls.py" />
         <option value="$PROJECT_DIR$/websec/core/templates/base.html" />
         <option value="$PROJECT_DIR$/websec/requerimentos/templates/requerimentos/requerimento_form.html" />
+        <option value="$PROJECT_DIR$/websec/settings.py" />
+        <option value="$PROJECT_DIR$/websec/requerimentos/models.py" />
+        <option value="$PROJECT_DIR$/websec/requerimentos/tests/test_views_consulta.py" />
+        <option value="$PROJECT_DIR$/websec/requerimentos/views.py" />
+        <option value="$PROJECT_DIR$/websec/requerimentos/templates/requerimentos/requerimento_consulta.html" />
       </list>
     </option>
   </component>
@@ -241,46 +205,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="requerimentos" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="websec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sis" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="websec" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -445,13 +369,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="49" y="24" width="1317" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29233107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.29233107" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -486,35 +410,10 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/websec/requerimentos/tests/test_models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="483">
-          <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/websec/requerimentos/forms.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="420">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/websec/requerimentos/templates/requerimentos/requerimento_form.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="483" max-vertical-offset="693">
-          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/websec/core/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2457" max-vertical-offset="3696">
           <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -522,7 +421,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
           <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -530,9 +428,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="567">
           <caret line="10" column="28" selection-start-line="10" selection-start-column="28" selection-end-line="10" selection-end-column="28" />
-          <folding>
-            <element signature="e#16#51#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -540,9 +436,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="21" max-vertical-offset="210">
           <caret line="1" column="32" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
-          <folding>
-            <element signature="e#16#48#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -550,7 +444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="147">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -558,7 +451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="273">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -574,7 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="483">
           <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -582,7 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="210" max-vertical-offset="420">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,7 +488,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2457" max-vertical-offset="3696">
           <caret line="127" column="0" selection-start-line="127" selection-start-column="0" selection-end-line="127" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -756,13 +645,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/websec/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="609" max-vertical-offset="2205">
-          <caret line="45" column="27" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/websec/core/templates/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-2.1" vertical-offset="0" max-vertical-offset="231">
@@ -781,15 +663,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="591">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/websec/requerimentos/tests/test_views_requerimento.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="945">
-          <caret line="18" column="50" selection-start-line="18" selection-start-column="50" selection-end-line="18" selection-end-column="50" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,15 +670,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="420">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/websec/requerimentos/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="315">
-          <caret line="6" column="48" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -813,7 +677,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="483">
           <caret line="17" column="61" selection-start-line="17" selection-start-column="61" selection-end-line="17" selection-end-column="61" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -821,58 +684,101 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="273">
           <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/websec/urls.py">
+    <entry file="file://$PROJECT_DIR$/websec/requerimentos/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="399">
-          <caret line="11" column="84" selection-start-line="11" selection-start-column="84" selection-end-line="11" selection-end-column="84" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/websec/requerimentos/templates/requerimentos/requerimento_detalhe.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.4" vertical-offset="0" max-vertical-offset="189">
-          <caret line="2" column="56" selection-start-line="2" selection-start-column="56" selection-end-line="2" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/websec/requerimentos/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="693">
-          <caret line="25" column="51" selection-start-line="25" selection-start-column="51" selection-end-line="25" selection-end-column="51" />
-          <folding>
-            <element signature="e#16#51#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="273">
+          <caret line="7" column="51" selection-start-line="7" selection-start-column="51" selection-end-line="7" selection-end-column="51" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/websec/core/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3160535" vertical-offset="1764" max-vertical-offset="3696">
-          <caret line="93" column="53" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
+        <state vertical-scroll-proportion="-10.5" vertical-offset="1764" max-vertical-offset="3696">
+          <caret line="99" column="55" selection-start-line="99" selection-start-column="55" selection-end-line="99" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websec/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.3343949" vertical-offset="0" max-vertical-offset="628">
+          <caret line="12" column="80" selection-start-line="12" selection-start-column="80" selection-end-line="12" selection-end-column="80" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websec/requerimentos/tests/test_views_requerimento.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="945">
+          <caret line="2" column="33" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websec/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="409" max-vertical-offset="2226">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/websec/requerimentos/templates/requerimentos/requerimento_form.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27759197" vertical-offset="65" max-vertical-offset="693">
-          <caret line="11" column="74" selection-start-line="11" selection-start-column="74" selection-end-line="11" selection-end-column="74" />
+        <state vertical-scroll-proportion="0.035117056" vertical-offset="21" max-vertical-offset="714">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websec/requerimentos/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23863636" vertical-offset="0" max-vertical-offset="616">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websec/requerimentos/templates/requerimentos/requerimento_detalhe.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.109947644" vertical-offset="0" max-vertical-offset="573">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websec/requerimentos/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76592356" vertical-offset="191" max-vertical-offset="819">
+          <caret line="32" column="98" selection-start-line="32" selection-start-column="98" selection-end-line="32" selection-end-column="98" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/websec/requerimentos/tests/test_views_detalhe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90286624" vertical-offset="0" max-vertical-offset="735">
-          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+        <state vertical-scroll-proportion="0.36464968" vertical-offset="107" max-vertical-offset="735">
+          <caret line="16" column="59" selection-start-line="16" selection-start-column="59" selection-end-line="16" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websec/requerimentos/tests/test_views_consulta.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5684713" vertical-offset="0" max-vertical-offset="628">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/websec/requerimentos/templates/requerimentos/requerimento_consulta.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21640489" vertical-offset="23" max-vertical-offset="609">
+          <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
           <folding>
-            <element signature="e#16#48#0" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#tr#0;n#table#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

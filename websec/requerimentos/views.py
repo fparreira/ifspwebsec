@@ -4,6 +4,7 @@ from django.http import HttpResponseRedirect
 from websec.requerimentos.forms import RequerimentoForm
 from websec.requerimentos.models import Requerimento
 from django.shortcuts import get_object_or_404
+from django.shortcuts import render_to_response
 
 def requerimento(request):
     if request.method == 'POST':
@@ -25,3 +26,9 @@ def create(request):
 def detalhe(request, pk):
     requerimento = get_object_or_404(Requerimento, pk=pk)
     return render(request, 'requerimentos/requerimento_detalhe.html', {'requerimento':requerimento})
+
+def consulta(request):
+    requerimento = Requerimento.objects.all()
+    #return render(request, 'requerimentos/requerimento_consulta.html', {"requerimento": Requerimento.objects.all()})
+    return render(request, 'requerimentos/requerimento_consulta.html', {'requerimento': requerimento})
+    #return render_to_response('requerimentos/requerimento_consulta.html', {"requerimento": requerimento})
