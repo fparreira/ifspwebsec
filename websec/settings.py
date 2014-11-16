@@ -44,7 +44,6 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'websec.core',
     'websec.requerimentos',
-    'django_tables2',
 )
 
 MIDDLEWARE_CLASSES = (
